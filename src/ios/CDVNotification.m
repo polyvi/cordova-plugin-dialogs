@@ -96,9 +96,9 @@ static void soundCompletionCallback(SystemSoundID ssid, void* data);
 }
 
 /**
-  * Callback invoked when an alert dialog's buttons are clicked.
+  * Callback invoked when an alert view is dismissed from the screen.
   */
-- (void)alertView:(UIAlertView*)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+- (void)alertView:(UIAlertView*)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex
 {
     CDVAlertView* cdvAlertView = (CDVAlertView*)alertView;
     CDVPluginResult* result;
