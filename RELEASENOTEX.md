@@ -35,3 +35,24 @@
  *  [CB-5565] Updated version and RELEASENOTES.md for release 0.2.4
  *  add ubuntu platform
  *  1. Added amazon-fireos platform. 2. Change to use amazon-fireos as a platform if user agent string contains 'cordova-amazon-fireos'.
+
+## 0.2.6 (Tue Apr 29 2014)
+
+
+ *  Merge cordova dialogs@0.2.7
+ *  CB-6452 Updated version and RELEASENOTES.md for release 0.2.7
+ *  CB-6460: Update license headers
+ *  CB-6422 [windows8] use cordova/exec/proxy
+ *  CB-6411 [BlackBerry10] Work around Audio playback issue
+ *  CB-6411 [BlackBerry10] Updates to beep
+ *  CB-6212 iOS: fix warnings compiled under arm64 64-bit
+ *  Add NOTICE file
+ *  CB-5980 Incremented plugin version on dev branch.
+ *  CB-5980 Updated version and RELEASENOTES.md for release 0.2.6
+ *  fixing index + prompt response
+ *  no need to recreate the manifest.webapp file after each `cordova prepare`
+ *  FFOS description added
+ *  Delete stale test/ directory
+ *  CB-5719 Incremented plugin version on dev branch.
+ *  [iOS]xface-test-appsissue 4:App hangs after confirm button is clicked.
+ *  batch modify .reviewboard
